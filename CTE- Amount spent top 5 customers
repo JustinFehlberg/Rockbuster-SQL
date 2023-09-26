@@ -1,4 +1,4 @@
-# here is a SQL query displaying the use of a common table expression to show the top 5 customers in each coutnry
+# here is a SQL query displaying the use of a common table expression to show the top 5 customers in each country
 
 WITH customer_count_cte(customer_id, first_name, last_name, country, city, total_amount_paid) AS 
           (SELECT A.customer_id,
